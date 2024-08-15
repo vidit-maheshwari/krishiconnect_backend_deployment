@@ -141,7 +141,7 @@ app.get('/api/sensor-data', async (req, res) => {
       device_id: data.device_id,
     })));
 
-    // Respond with the generated data
+ 
     res.json({
       location: {
         latitude,
